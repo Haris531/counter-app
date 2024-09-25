@@ -7,8 +7,8 @@ const UseEffe = () => {
         setnum(num + 1);
     }
     useEffect(()=>{
-        // alert("i am clicked")
-    });
+        console.log('the number is :' , num);
+    } , [num]);
 
   return (
     <>
@@ -18,5 +18,4 @@ const UseEffe = () => {
     </>
   )
 }
-
 export default UseEffe
