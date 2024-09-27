@@ -8,7 +8,7 @@ const UseEffe = () => {
     }
     useEffect(()=>{
         console.log('the number is :' , num);
-    } , [num]);
+    },[num]);
 
   return (
     <>
